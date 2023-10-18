@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(6, 10, 29, 0.637);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120vh;
+    height: 25vh;
+    mix-blend-mode: multiply;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+img{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    height: 120px;
+    width: 130vh;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 22%;
+}
+canvas{
+    border: 20px solid rgba(39, 121, 37, 0.705);
+}
+h2{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana;
+}
+#ChangeBtn{
+    margin-top: 20px ;
+    cursor: pointer;
+    width: 320px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    text-shadow: -4px -4px 60px rgba(163, 30, 252, 0.76);
+    font-weight: bold;
+}
+#ChangeBtn:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+.audio-player {
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    margin: 10px;;
+    cursor: pointer;
+    width: 220px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    text-shadow: -4px -4px 60px rgba(163, 30, 252, 0.76);
+    font-weight: bold;
+}
+button:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+.start-game{
+    width: 300px;
+    height: 50px;
+    color: rgb(63, 145, 46);
+    background-color: black;
+    border-radius: 30px;
+    font-style: italic;
+}
+.settings{
+    width: 300px;
+    height: 50px;
+    color: rgb(63, 145, 46);
+    background-color: black;
+    border-radius: 30px;
+    font-style: italic;
+}
+#game-objectives{
+    width: 300px;
+    height: 50px;
+    color: rgb(63, 145, 46);
+    background-color: black;
+    border-radius: 30px;
+    font-style: italic;
+}
+#game-objectives:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+#ChangeBtn{
+    width: 320px;
+    height: 50px;
+    color: rgb(63, 145, 46);
+    background-color: black;
+    border-radius: 30px;
+    font-style: italic;
+}
+#playButton{
+    width: 200px;
+    height: 50px;
+    color: rgb(63, 145, 46);
+    background-color: black;
+    border-radius: 30px;
+    font-style: italic;
+}
+#playButton:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+#pauseButton{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: rgb(63, 145, 46);
+    background-color: black;
+    border-radius: 30px;
+    font-style: italic;
+}
+#pauseButton:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+#audio{
+    width: 400px;
+    height: 50px;
+    color: rgb(63, 145, 46);
+    background-color: black;
+    border-radius: 30px;
+}

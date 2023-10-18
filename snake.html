@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="snake.css">
+    <title>Snake Game</title>
+</head>
+<body>
+    
+
+    <img class="logo" src="textanim-wfQ8R.gif">
+
+    <img class="menu-pic" src="moving snake.gif">
+
+        
+    <canvas id="game" width="600" height="500"></canvas>
+
+
+        <div id="menu">
+    <button class="start-game">START GAME</button>
+    <button class="settings">SETTINGS</button>
+    <button id="game-objectives"
+     data-popup-message="     +FEED THE SNAKE AS MUCH AS YOU CAN 
+     +HITTING THE BORDER = GAME OVER 
+     +IF THE HEAD TOUCHES THE BODY = GAME OVER
+     +TRY TO BEAT YOUR OLDER SCORE">GAME OBJECTIVES</button>
+        </div>
+
+
+    <div class="audio-player" style="display: none;">
+
+        <audio id="audio" controls>
+            <source src="SNAKE TRACK.mp3" type="audio/mpeg">
+        </audio>
+
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+
+        <button id="ChangeBtn" onclick="changeBackgroundColor()">CHANGE BACKGROUND</button>
+    </div>
+        
+    <script src="snake.js"></script>
+</body>
+</html>
